@@ -1,3 +1,7 @@
+```
+Status: 10 line wrapper
+```
+
 cli frontend for [webpage](https://crates.io/crates/webpage) crate
 
 usage:
