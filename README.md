@@ -1,10 +1,10 @@
 ```
-Status: 10 line wrapper
+Status: Useful, but it's "just a 10 line wrapper"
 ```
 
-cli frontend for [webpage](https://crates.io/crates/webpage) crate
+CLI frontend for [webpage](https://crates.io/crates/webpage) crate
 
-usage:
+# Usage
 
 ```nushell
 ~/webpage-cli: webpage-cli https://www.rust-lang.org | from json | get html.opengraph
@@ -24,4 +24,10 @@ usage:
  audios     │ [list 0 items]
 ────────────┴──────────────────────────────────────────────────────────────────────────────────────────
 ~/webpage-cli:
+```
+
+# Install
+
+```bash
+cargo install --git https://github.com/cablehead/webpage-cli --branch main
 ```
